@@ -1,7 +1,9 @@
 package com.ftc.caffeinedemo.entity;
 
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author 冯铁城 [17615007230@163.com]
@@ -9,6 +11,8 @@ import lombok.Data;
  * @describe 用户实体
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     @Schema(defaultValue = "用户名")
